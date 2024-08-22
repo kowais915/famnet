@@ -60,7 +60,7 @@ app.get("/docs", (req, res)=>{
 app.get("/", (req, res)=>{
 
     res.json(
-        {msg: "Welcome to the famnet documentation page for its API",
+        {msg: "Welcome to the famnet documentation page for its API ",
         documentation: " https://famnetapi-kowais915s-projects.vercel.app/docs"})
     
 })
